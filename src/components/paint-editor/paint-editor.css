@@ -6,7 +6,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: calc(3 * $grid-unit);
+    padding: 1rem;
 }
 
 .row {
@@ -140,7 +140,7 @@ $border-radius: 0.25rem;
 
 .mode-selector {
     display: flex;
-    max-width: 7.5rem;
+    max-width: 7rem;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
