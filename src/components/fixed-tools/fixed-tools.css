@@ -12,7 +12,7 @@
 }
 
 [dir="ltr"] .mod-dashed-border {
-    border-right: 1px dashed $ui-pane-border;
+    border-right: 1px solid $ui-pane-border;
     padding-right: calc(2 * $grid-unit);
 }
 

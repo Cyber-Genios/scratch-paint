@@ -7,9 +7,10 @@ See https://github.com/LLK/scratch-paint/issues/13 */
 @import "../input-group/input-group.css";
 
 .input-label, .input-label-secondary {
-    font-size: 0.625rem;
+    font-size: 0.75rem;
     user-select: none;
     cursor: default;
+    color: #7C7C7C
 }
 
 [dir="ltr"] .input-label, [dir="ltr"] .input-label-secondary{
@@ -18,10 +19,6 @@ See https://github.com/LLK/scratch-paint/issues/13 */
 
 [dir="rtl"] .input-label, [dir="ltr"] .input-label-secondary{
     margin-left: calc(2 * $grid-unit);
-}
-
-.input-label {
-    font-weight: bold;
 }
 
 @media only screen and (max-width: $full-size-paint) {
