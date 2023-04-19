@@ -16,15 +16,13 @@
 }
 
 .editor-container-top {
-    border-bottom: 1px dashed $ui-pane-border;
-    padding-bottom: calc(2 * $grid-unit);
+    padding-bottom: 1rem;
 }
 
 .top-align-row {
     display: flex;
     flex-direction: row;
     height: 100%;
-    padding-top: calc(5 * $grid-unit);
     min-width: 524px;
 }
 
@@ -130,10 +128,9 @@ $border-radius: 0.25rem;
     flex-grow: 1;
     min-width: 402px; /* Leave room for the border */
     box-sizing: content-box;
-    border: 1px solid #e8edf1;
-    border-radius: .25rem;
+    border-radius: 1rem;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
 }
 
 .mode-selector {
