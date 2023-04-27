@@ -112,6 +112,8 @@ const FixedToolsComponent = props => {
                 </MediaQuery>
             </InputGroup>
 
+            <div style={{width: '100%'}} />
+
             {/* Undo/Redo */}
             <InputGroup>
                 <ButtonGroup>
@@ -154,6 +156,7 @@ const FixedToolsComponent = props => {
                             className={styles.buttonGroupButtonIcon}
                             draggable={false}
                             src={redoIcon}
+                            // style={{width: '100%'}}
                         />
                     </Button>
                 </ButtonGroup>
